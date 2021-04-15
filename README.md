@@ -12,16 +12,10 @@ Python program containing 3 types of classifier:
 ## Operation
 
 First of all, training and test datasets must be loaded. This can be done using the importData(filename) function.
-The ‘filename’ argument should be a string (in “ “ ) containing the name of the file to be imported (including any extension).
+The ‘filename’ argument should be a string (in " ") containing the name of the file to be imported (including any extension).
 
 e.g. trainingFeatures, trainingLabels = importData(“train.data”)
      testFeatures, testLabels = importData(“test.data”)
-
-
-For convenience, the functions runPerceptron(), runMC() and runMCL2() can be called in order to print the biases, weights and accuracies associated with each classifier, without further input from the user.
-Please note, the aforementioned functions will only work if the importData return is assigned exactly the same variable names as in the example above.
-
-However, should the user wish to try each function individually, instructions are as follows.
 
 
 ### Perceptron
